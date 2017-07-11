@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		14225B8F1F145E5200F378D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14225B8E1F145E5200F378D8 /* main.m */; };
 		14225B921F145E5200F378D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14225B911F145E5200F378D8 /* AppDelegate.m */; };
-		14225B951F145E5200F378D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14225B941F145E5200F378D8 /* ViewController.m */; };
 		14225B981F145E5200F378D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14225B961F145E5200F378D8 /* Main.storyboard */; };
 		14225B9A1F145E5200F378D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14225B991F145E5200F378D8 /* Assets.xcassets */; };
 		14225B9D1F145E5200F378D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14225B9B1F145E5200F378D8 /* LaunchScreen.storyboard */; };
+		14225BA61F145EEC00F378D8 /* MusicEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 14225BA51F145EEC00F378D8 /* MusicEntity.m */; };
+		14225BA91F1491E200F378D8 /* MusicSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 14225BA81F1491E200F378D8 /* MusicSearch.m */; };
+		14225BAC1F1499F100F378D8 /* SearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14225BAB1F1499F100F378D8 /* SearchTableViewController.m */; };
+		14225BAF1F149E5400F378D8 /* MusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14225BAE1F149E5400F378D8 /* MusicCell.m */; };
+		14225BB41F14A51100F378D8 /* LyricsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14225BB31F14A51100F378D8 /* LyricsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,21 @@
 		14225B8E1F145E5200F378D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14225B901F145E5200F378D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		14225B911F145E5200F378D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		14225B931F145E5200F378D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		14225B941F145E5200F378D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		14225B971F145E5200F378D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14225B991F145E5200F378D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14225B9C1F145E5200F378D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14225B9E1F145E5200F378D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14225BA41F145EEC00F378D8 /* MusicEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicEntity.h; sourceTree = "<group>"; };
+		14225BA51F145EEC00F378D8 /* MusicEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicEntity.m; sourceTree = "<group>"; };
+		14225BA71F1491E200F378D8 /* MusicSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicSearch.h; sourceTree = "<group>"; };
+		14225BA81F1491E200F378D8 /* MusicSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicSearch.m; sourceTree = "<group>"; };
+		14225BAA1F1499F100F378D8 /* SearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewController.h; sourceTree = "<group>"; };
+		14225BAB1F1499F100F378D8 /* SearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewController.m; sourceTree = "<group>"; };
+		14225BAD1F149E5400F378D8 /* MusicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicCell.h; sourceTree = "<group>"; };
+		14225BAE1F149E5400F378D8 /* MusicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicCell.m; sourceTree = "<group>"; };
+		14225BB21F14A51100F378D8 /* LyricsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricsViewController.h; sourceTree = "<group>"; };
+		14225BB31F14A51100F378D8 /* LyricsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricsViewController.m; sourceTree = "<group>"; };
+		14D523ED1F1543EB00177B32 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +55,7 @@
 		14225B811F145E5200F378D8 = {
 			isa = PBXGroup;
 			children = (
+				14D523ED1F1543EB00177B32 /* Readme.md */,
 				14225B8C1F145E5200F378D8 /* MusicSearch */,
 				14225B8B1F145E5200F378D8 /* Products */,
 			);
@@ -58,10 +72,9 @@
 		14225B8C1F145E5200F378D8 /* MusicSearch */ = {
 			isa = PBXGroup;
 			children = (
-				14225B901F145E5200F378D8 /* AppDelegate.h */,
-				14225B911F145E5200F378D8 /* AppDelegate.m */,
-				14225B931F145E5200F378D8 /* ViewController.h */,
-				14225B941F145E5200F378D8 /* ViewController.m */,
+				14225BB51F14A9EC00F378D8 /* Extras */,
+				14225BB01F149E5900F378D8 /* Controllers */,
+				14225BB11F149E6400F378D8 /* Model */,
 				14225B961F145E5200F378D8 /* Main.storyboard */,
 				14225B991F145E5200F378D8 /* Assets.xcassets */,
 				14225B9B1F145E5200F378D8 /* LaunchScreen.storyboard */,
@@ -77,6 +90,39 @@
 				14225B8E1F145E5200F378D8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14225BB01F149E5900F378D8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				14225BAA1F1499F100F378D8 /* SearchTableViewController.h */,
+				14225BAB1F1499F100F378D8 /* SearchTableViewController.m */,
+				14225BB21F14A51100F378D8 /* LyricsViewController.h */,
+				14225BB31F14A51100F378D8 /* LyricsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		14225BB11F149E6400F378D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14225BA71F1491E200F378D8 /* MusicSearch.h */,
+				14225BA81F1491E200F378D8 /* MusicSearch.m */,
+				14225BA41F145EEC00F378D8 /* MusicEntity.h */,
+				14225BA51F145EEC00F378D8 /* MusicEntity.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		14225BB51F14A9EC00F378D8 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				14225B901F145E5200F378D8 /* AppDelegate.h */,
+				14225B911F145E5200F378D8 /* AppDelegate.m */,
+				14225BAD1F149E5400F378D8 /* MusicCell.h */,
+				14225BAE1F149E5400F378D8 /* MusicCell.m */,
+			);
+			name = Extras;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +197,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14225B951F145E5200F378D8 /* ViewController.m in Sources */,
+				14225BAC1F1499F100F378D8 /* SearchTableViewController.m in Sources */,
 				14225B921F145E5200F378D8 /* AppDelegate.m in Sources */,
+				14225BA61F145EEC00F378D8 /* MusicEntity.m in Sources */,
 				14225B8F1F145E5200F378D8 /* main.m in Sources */,
+				14225BA91F1491E200F378D8 /* MusicSearch.m in Sources */,
+				14225BB41F14A51100F378D8 /* LyricsViewController.m in Sources */,
+				14225BAF1F149E5400F378D8 /* MusicCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +364,7 @@
 				14225BA31F145E5200F378D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

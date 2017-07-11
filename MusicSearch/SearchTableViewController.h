@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SearchTableViewController.h
 //  MusicSearch
 //
 //  Created by Maroun Abi Ramia on 7/10/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SearchTableViewController : UITableViewController <UISearchBarDelegate>
 
 @end
-
